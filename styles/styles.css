@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3 {
+    color: #ff7518;
+    text-align: center;
+}
+
+button, .votar-button {
+    background-color: #ff7518;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover, .votar-button:hover {
+    background-color: #ff5700;
+}
+
+a {
+    color: #ff7518;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff5700;
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+header a {
+    color: #ff7518;
+    margin: 0 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 80%;
+}
+
+li {
+    background-color: #333;
+    border: 1px solid #555;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+}

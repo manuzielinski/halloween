@@ -1,0 +1,42 @@
+body {
+    background-color: #222;
+    color: #f8f8ff;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #ff6347;
+}
+
+form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    color: #ffcc00;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #555;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
